@@ -1,0 +1,11 @@
+{
+  "name": "chatbot-Telegram-Nodejs-Aula",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NJRezini/chatbot-Telegram-Nodejs-Aula.git",
+  "author": "Nathan Rezini <nathanrezini@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  }
+}
