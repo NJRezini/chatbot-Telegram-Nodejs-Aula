@@ -14,7 +14,11 @@ bot.start(async ctx => {
     const from = ctx.message.from;
     delete from.id;
     console.log(from);
-    await ctx.reply(`Olá ${from.username}, o seu nome é: ${from.first_name} ${from.last_name}`)
+    if(from.username == 'nathanrezini'){
+        await ctx.reply(`Olá ${from.username}, o seu nome é: ${from.first_name} ${from.last_name}`)
+    } else {
+        await ctx.reply(`Não falo com estranhos 😜`)
+    }
 })
 
 bot.on('text', ctx => ctx.reply('Olá Mundo'));
