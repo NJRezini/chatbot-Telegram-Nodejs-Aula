@@ -24,7 +24,7 @@ bot.on('voice', ctx => {
 
 bot.on('photo', ctx => {
     const photo = ctx.message.photo;
-    console.log(photo);
+    
     photo.forEach((ft, i) => {
         ctx.reply(`Foto ${i} tem resolucao de ${ft.width}x${ft.height}`)
     });
