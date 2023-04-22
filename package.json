@@ -6,7 +6,7 @@
   "author": "Nathan Rezini <nathanrezini@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.2",
     "telegraf": "^3.38.0"
   }
 }
